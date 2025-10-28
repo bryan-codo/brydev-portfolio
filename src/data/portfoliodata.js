@@ -2,9 +2,9 @@
 export const projects = [
     {
         id: 1,
-        title: "E-commerce Store",
-        description: "Full-stack e-commerce platform with React, Node.js, and MongoDB.",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        title: "Sanders",
+        description: "Full-stack e-commerce platform (Incomplete but you can click the demo button to see the current front-end,)",
+        technologies: ["Vue", "Vite", "TailwindCSS", "Typescript", "Nuxt3"],
         github: "#",
         demo: "https://sanders-theta.vercel.app/",
         imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(81).png"
