@@ -23,7 +23,9 @@ export const projects = [
         description: "Real-time weather application with location-based forecasts.",
         technologies: ["JavaScript", "API Integration", "Chart.js"],
         github: "#",
-        demo: "#"
+        demo: "https://sanders-theta.vercel.app/",
+        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(81).png"
+
     }
 ];
 
