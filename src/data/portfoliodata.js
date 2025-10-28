@@ -6,7 +6,8 @@ export const projects = [
         description: "Full-stack e-commerce platform with React, Node.js, and MongoDB.",
         technologies: ["React", "Node.js", "MongoDB", "Stripe"],
         github: "#",
-        demo: "#"
+        demo: "https://sanders-theta.vercel.app/",
+        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(81).png"
     },
     {
         id: 2,
@@ -23,8 +24,8 @@ export const projects = [
         description: "Real-time weather application with location-based forecasts.",
         technologies: ["JavaScript", "API Integration", "Chart.js"],
         github: "#",
-        demo: "https://sanders-theta.vercel.app/",
-        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(81).png"
+        demo: "#",
+        imageUrl: "#"
 
     }
 ];
