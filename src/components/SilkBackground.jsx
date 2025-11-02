@@ -94,3 +94,4 @@ export default function SilkBackground() {
 
     return <canvas ref={canvasRef} id="silk-canvas" />;
 }
+
