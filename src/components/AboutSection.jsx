@@ -36,25 +36,15 @@ export default function AboutSection({ skills = [
 ] }) {
   const highlights = [
     { icon: '🏆', label: 'Magna Cum Laude', description: 'Bachelor of Science in IT' },
-    { icon: '💻', label: 'Full-Stack Developer', description: 'CEU Vault Project Lead' },
-    { icon: '⚡', label: '500+ Hours', description: 'Professional Experience' },
-    { icon: '🎯', label: 'Quick Learner', description: 'Mastering emerging tech' }
+    { icon: '💻', label: 'Full-Stack Developer', description: 'CEU Vault Project' },
+    { icon: '⚡', label: '500+ Hours', description: 'in front of the laptop' },
+    { icon: '🎯', label: 'Quick Learner', description: 'Mastering emerging techcologies' }
   ];
 
   const skillCategories = {
     'Frontend': ['HTML/CSS', 'React', 'Vue', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Vite'],
     'Backend': ['Node.js', 'PHP', 'Next.js', 'Nuxt'],
     'Database': ['MongoDB', 'PostgreSQL', 'MySQL']
-  };
-
-  const skillIcons = {
-    'HTML/CSS': '🎨',
-    'React': '⚛️',
-    'Node.js': '🟢',
-    'PHP': '🐘',
-    'SQL': '🗄️',
-    'JavaScript': '🟨',
-    'Tailwind CSS': '🎭'
   };
 
   return (
