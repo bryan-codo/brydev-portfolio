@@ -24,7 +24,7 @@ export default function HeroSection({ setActiveSection }) {
                 </h2>
                 
                 <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-                    I create beautiful, functional web applications using modern technologies. I also aspire to be a full-pledged full stack developer.
+                    Creating beautiful, functional web applications using modern technologies since day one. I also aspire to be a full-pledged full stack developer.
                 </p>
                 
                 <button 

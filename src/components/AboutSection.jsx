@@ -13,6 +13,8 @@
     { node: <SiMongodb />, title: "MongoDB", href: "https://www.mongodb.com" },
     { node: <SiPostgresql />, title: "PostgreSQL", href: "https://www.postgresql.org" },
     { node: <SiMysql />, title: "MySQL", href: "https://www.mysql.com" },
+    { node: <SiPython/>, title: "Python", href: "https://www.python.org/"},
+    { node: <SiC/>, title: "C#", href: "https://dotnet.microsoft.com/en-us/languages/csharp"},
   ];  const skillIcons = {
     'HTML/CSS': <SiHtml5 className="text-orange-500" />,
     'React': <SiReact className="text-cyan-500" />,
@@ -21,8 +23,10 @@
     'SQL': <SiMysql className="text-blue-600" />,
     'JavaScript': <SiJavascript className="text-yellow-500" />,
     'Tailwind CSS': <SiTailwindcss className="text-cyan-400" />
-  };import React from 'react';
-import { SiReact, SiNodedotjs, SiPhp, SiMysql, SiJavascript, SiTailwindcss, SiHtml5, SiVuedotjs, SiVite, SiNuxtdotjs, SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql } from 'react-icons/si';
+  };
+  
+import React from 'react';
+import { SiReact, SiNodedotjs, SiPhp, SiMysql, SiJavascript, SiTailwindcss, SiHtml5, SiVuedotjs, SiVite, SiNuxtdotjs, SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, SiPython, SiC } from 'react-icons/si';
 import LogoLoop from './LogoLoop';
 
 export default function AboutSection({ skills = [
@@ -42,8 +46,8 @@ export default function AboutSection({ skills = [
   ];
 
   const skillCategories = {
-    'Frontend': ['HTML/CSS', 'React', 'Vue', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    'Backend': ['Node.js', 'PHP', 'Next.js', 'Nuxt'],
+    'Frontend': ['HTML/CSS', 'Next.js', 'React.js', 'Vue', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Vite', 'Nuxt3'],
+    'Backend': ['Node.js', 'PHP', 'Express.js', 'C# (In progress)', 'Python (In progress)'],
     'Database': ['MongoDB', 'PostgreSQL', 'MySQL']
   };
 
