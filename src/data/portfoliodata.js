@@ -20,12 +20,12 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Weather Dashboard",
-        description: "Real-time weather application with location-based forecasts.",
-        technologies: ["JavaScript", "API Integration", "Chart.js"],
+        title: "CarsRFun",
+        description: "A Reseller website that fetches data from a self-made API and displays car listings with details such as make, model, year, and price. (Initial build, more improvements coming soon.",
+        technologies: ["Next.js", "TailwindCSS", "Typescript", "Supabase", "React"],
         github: "#",
-        demo: "#",
-        imageUrl: "#"
+        demo: "https://carsrfun.vercel.app/",
+        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(42).png#"
 
     }
 ];
