@@ -46,14 +46,14 @@ export default function ProjectsSection({ projects }) {
                                 </div>
                                 
                                 <div className="flex space-x-3 pt-4 border-t border-gray-100">
-                                    <a 
+                                    {/* <a 
                                         href={project.github}
                                         className="flex-1 text-center bg-transparent border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium py-2 px-3 rounded-lg transition-all duration-300 text-sm"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         Code
-                                    </a>
+                                    </a> */}
                                     <a 
                                         href={project.demo}
                                         className="flex-1 text-center bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-3 rounded-lg transition-all duration-300 transform hover:scale-105 text-sm"

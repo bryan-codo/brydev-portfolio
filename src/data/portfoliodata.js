@@ -28,6 +28,16 @@ export const projects = [
         imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(42).png#"
 
     }
+    ,{
+        id: 4,
+        title: "Zenith Health OS",
+        description: "A Health Record Management System that allows users to securely store and manage their health records online, providing easy access to each stakeholder(In progress and initial build, Can do sign-in and login).",
+        technologies: ["Angular", "TailwindCSS", "Node.js", "Supabase", "Vite"],
+        github: "#",
+        demo: "https://zenith-zeta-nine.vercel.app/",
+        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(63).png"
+
+    }
 ];
 
 export const skills = [
