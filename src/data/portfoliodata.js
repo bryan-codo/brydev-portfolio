@@ -37,7 +37,17 @@ export const projects = [
         demo: "https://zenith-zeta-nine.vercel.app/",
         imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(63).png"
 
+    },
+    {
+        id: 5,
+        title: "Artea Gallery",
+        description: "A react fron-end playground for testing UI/UX designs and concepts for websites.",
+        technologies: ["React", "TailwindCSS", "Vite", "JavaScript", "GSAP"],
+        github: "#",
+        demo:"https://artea-gallery.vercel.app/",
+        imageUrl: "https://raw.githubusercontent.com/bryan-codo/brydev-portfolio/main/public/assets/Screenshot%20(72).png"
     }
+
 ];
 
 export const skills = [
